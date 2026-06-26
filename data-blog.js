@@ -42,5 +42,35 @@ export const blogPosts = [
       author: "Nguyễn Văn C", 
       date: "March 17, 2025", 
       image: "blogs/cafe-address.jpg",
+    },
+    { 
+      id: 4, 
+      title: "Những quán cà phê ngon không thể bỏ lỡ ở Buôn Ma Thuột", 
+      description: "Buôn Ma Thuột – thủ phủ cà phê Việt Nam, là nơi hội tụ nhiều quán cà phê đặc sắc với hương vị đậm đà và không gian ấn tượng...",
+      content: `Buôn Ma Thuột không chỉ nổi tiếng với những cánh đồng cà phê bạt ngàn mà còn sở hữu nhiều quán cà phê tuyệt vời dành cho những ai yêu thích thưởng thức hương vị nguyên bản. Dưới đây là một số quán cà phê bạn không thể bỏ qua khi đến với thành phố này:\n
+      ☕ **The Espresso Station** – Một không gian yên tĩnh với những ly cà phê specialty đậm đà, nơi bạn có thể tận hưởng hương vị cà phê nguyên bản được pha chế tỉ mỉ.\n
+      🌿 **Arul Coffee** – Một quán cà phê mang đậm chất Tây Nguyên với không gian nhà dài truyền thống của người Ê Đê, cà phê đậm vị và khung cảnh thiên nhiên tuyệt đẹp.\n
+      🍃 **House of Lens Coffee** – Quán cà phê có không gian xanh mát với nhiều góc sống ảo siêu đẹp, phù hợp cho những ai thích sự thư giãn và tĩnh lặng.\n
+      🏡 **Hẻm Coffee** – Một góc nhỏ bình yên giữa lòng thành phố với thiết kế hoài cổ, cà phê thơm ngon và đặc biệt là không gian cực kỳ chill.\n
+      ☕ **Cộng Cà Phê Buôn Ma Thuột** – Một phiên bản đặc biệt của chuỗi cà phê nổi tiếng, mang đến hương vị đặc trưng và không gian hoài niệm.\n
+      Nếu bạn là tín đồ cà phê, hãy một lần đặt chân đến Buôn Ma Thuột để khám phá những hương vị đặc trưng của vùng đất này. Hãy tận hưởng từng ngụm cà phê và cảm nhận nét đẹp văn hóa cà phê Tây Nguyên!`,
+      author: "Nguyễn Văn C", 
+      date: "March 17, 2025", 
+      image: "blogs/cafe-address.jpg",
+    },
+    { 
+      id: 5, 
+      title: "Những quán cà phê ngon không thể bỏ lỡ ở Buôn Ma Thuột", 
+      description: "Buôn Ma Thuột – thủ phủ cà phê Việt Nam, là nơi hội tụ nhiều quán cà phê đặc sắc với hương vị đậm đà và không gian ấn tượng...",
+      content: `Buôn Ma Thuột không chỉ nổi tiếng với những cánh đồng cà phê bạt ngàn mà còn sở hữu nhiều quán cà phê tuyệt vời dành cho những ai yêu thích thưởng thức hương vị nguyên bản. Dưới đây là một số quán cà phê bạn không thể bỏ qua khi đến với thành phố này:\n
+      ☕ **The Espresso Station** – Một không gian yên tĩnh với những ly cà phê specialty đậm đà, nơi bạn có thể tận hưởng hương vị cà phê nguyên bản được pha chế tỉ mỉ.\n
+      🌿 **Arul Coffee** – Một quán cà phê mang đậm chất Tây Nguyên với không gian nhà dài truyền thống của người Ê Đê, cà phê đậm vị và khung cảnh thiên nhiên tuyệt đẹp.\n
+      🍃 **House of Lens Coffee** – Quán cà phê có không gian xanh mát với nhiều góc sống ảo siêu đẹp, phù hợp cho những ai thích sự thư giãn và tĩnh lặng.\n
+      🏡 **Hẻm Coffee** – Một góc nhỏ bình yên giữa lòng thành phố với thiết kế hoài cổ, cà phê thơm ngon và đặc biệt là không gian cực kỳ chill.\n
+      ☕ **Cộng Cà Phê Buôn Ma Thuột** – Một phiên bản đặc biệt của chuỗi cà phê nổi tiếng, mang đến hương vị đặc trưng và không gian hoài niệm.\n
+      Nếu bạn là tín đồ cà phê, hãy một lần đặt chân đến Buôn Ma Thuột để khám phá những hương vị đặc trưng của vùng đất này. Hãy tận hưởng từng ngụm cà phê và cảm nhận nét đẹp văn hóa cà phê Tây Nguyên!`,
+      author: "Nguyễn Văn C", 
+      date: "March 17, 2025", 
+      image: "blogs/cafe-address.jpg",
     }
   ];
