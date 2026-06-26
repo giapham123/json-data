@@ -1,46 +1,38 @@
 export const blogPosts = [
-    { 
-      id: 1, 
-      title: "Lợi ích của cà phê mỗi sáng", 
-      description: "Uống một tách cà phê vào buổi sáng không chỉ giúp bạn tỉnh táo mà còn mang lại nhiều lợi ích cho sức khỏe...",
-      content: `Cà phê là một trong những thức uống được yêu thích nhất trên thế giới, đặc biệt là vào buổi sáng. Dưới đây là một số lợi ích tuyệt vời của cà phê khi uống vào mỗi sáng:\n
-      ☕ **Tăng cường tỉnh táo:** Caffeine giúp kích thích hệ thần kinh, cải thiện sự tập trung và năng suất làm việc.\n
-      ❤️ **Bảo vệ sức khỏe tim mạch:** Nghiên cứu cho thấy cà phê có thể giúp giảm nguy cơ mắc bệnh tim nếu uống điều độ.\n
-      🏃 **Hỗ trợ đốt cháy mỡ:** Cà phê có thể thúc đẩy quá trình trao đổi chất, giúp bạn đốt cháy calo hiệu quả hơn.\n
-      🧠 **Cải thiện trí nhớ:** Một số nghiên cứu cho thấy cà phê có thể giúp giảm nguy cơ mắc bệnh Alzheimer và Parkinson.\n
-      Hãy tận hưởng một tách cà phê mỗi sáng để bắt đầu ngày mới đầy năng lượng!`,
-      author: "Nguyễn Văn A", 
-      date: "March 14, 2025", 
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamJ4alzVtlksCACq8S0PNZ-6VrIlbDeFrMw&s",
-    },
-    { 
-      id: 2, 
-      title: "Thói quen uống cà phê buổi sáng – Bí quyết khởi đầu ngày mới đầy năng lượng", 
-      description: "Một tách cà phê vào mỗi buổi sáng không chỉ giúp bạn tỉnh táo mà còn mang lại nhiều lợi ích tuyệt vời cho cơ thể và tinh thần...",
-      content: `Việc thưởng thức một ly cà phê vào buổi sáng đã trở thành thói quen quen thuộc của nhiều người. Hương thơm quyến rũ và vị đắng nhẹ của cà phê không chỉ đánh thức các giác quan mà còn mang đến nhiều lợi ích đáng ngạc nhiên:\n
-      ☕ **Giúp tỉnh táo và tăng cường sự tập trung:** Caffeine trong cà phê giúp kích thích hệ thần kinh trung ương, giúp bạn tỉnh táo và làm việc hiệu quả hơn.\n
-      💪 **Tăng cường trao đổi chất:** Cà phê có thể giúp thúc đẩy quá trình trao đổi chất, hỗ trợ đốt cháy calo và duy trì cân nặng hợp lý.\n
-      ❤️ **Hỗ trợ sức khỏe tim mạch:** Một số nghiên cứu cho thấy uống cà phê điều độ có thể giúp giảm nguy cơ mắc bệnh tim và đột quỵ.\n
-      🧠 **Cải thiện trí nhớ và bảo vệ não bộ:** Cà phê có thể giúp giảm nguy cơ mắc các bệnh thoái hóa thần kinh như Alzheimer và Parkinson.\n
-      🏃 **Nâng cao hiệu suất thể chất:** Caffeine giúp tăng cường khả năng chịu đựng và sức mạnh cơ bắp, rất hữu ích cho những ai tập luyện thể thao.\n
-      Một tách cà phê vào buổi sáng không chỉ đơn thuần là một thói quen mà còn là cách để bạn bắt đầu ngày mới với nhiều năng lượng và sự hứng khởi. Hãy tận hưởng từng giọt cà phê và để nó giúp bạn có một ngày làm việc hiệu quả!`,
-      author: "Nguyễn Văn B", 
-      date: "March 17, 2025", 
-      image: "https://image.plo.vn/w1000/Uploaded/2026/lcemdurlq/2026_05_07/uong-ca-phe-1-7522-6318.png.webp",
-    },
-    { 
-      id: 3, 
-      title: "Những quán cà phê ngon không thể bỏ lỡ ở Buôn Ma Thuột", 
-      description: "Buôn Ma Thuột – thủ phủ cà phê Việt Nam, là nơi hội tụ nhiều quán cà phê đặc sắc với hương vị đậm đà và không gian ấn tượng...",
-      content: `Buôn Ma Thuột không chỉ nổi tiếng với những cánh đồng cà phê bạt ngàn mà còn sở hữu nhiều quán cà phê tuyệt vời dành cho những ai yêu thích thưởng thức hương vị nguyên bản. Dưới đây là một số quán cà phê bạn không thể bỏ qua khi đến với thành phố này:\n
-      ☕ **The Espresso Station** – Một không gian yên tĩnh với những ly cà phê specialty đậm đà, nơi bạn có thể tận hưởng hương vị cà phê nguyên bản được pha chế tỉ mỉ.\n
-      🌿 **Arul Coffee** – Một quán cà phê mang đậm chất Tây Nguyên với không gian nhà dài truyền thống của người Ê Đê, cà phê đậm vị và khung cảnh thiên nhiên tuyệt đẹp.\n
-      🍃 **House of Lens Coffee** – Quán cà phê có không gian xanh mát với nhiều góc sống ảo siêu đẹp, phù hợp cho những ai thích sự thư giãn và tĩnh lặng.\n
-      🏡 **Hẻm Coffee** – Một góc nhỏ bình yên giữa lòng thành phố với thiết kế hoài cổ, cà phê thơm ngon và đặc biệt là không gian cực kỳ chill.\n
-      ☕ **Cộng Cà Phê Buôn Ma Thuột** – Một phiên bản đặc biệt của chuỗi cà phê nổi tiếng, mang đến hương vị đặc trưng và không gian hoài niệm.\n
-      Nếu bạn là tín đồ cà phê, hãy một lần đặt chân đến Buôn Ma Thuột để khám phá những hương vị đặc trưng của vùng đất này. Hãy tận hưởng từng ngụm cà phê và cảm nhận nét đẹp văn hóa cà phê Tây Nguyên!`,
-      author: "Nguyễn Văn C", 
-      date: "March 17, 2025", 
-      image: "https://images2.thanhnien.vn/528068263637045248/2024/2/28/h5-1709115593656875870937.jpg",
-    }
-  ];
+  {
+    "id": 1,
+    "title": "Lợi ích của cà phê mỗi sáng",
+    "description": "Uống một tách cà phê vào buổi sáng không chỉ giúp bạn tỉnh táo mà còn mang lại nhiều lợi ích cho sức khỏe...",
+    "content": "Cà phê là một trong những thức uống được yêu thích nhất trên thế giới, đặc biệt là vào buổi sáng. Dưới đây là một số lợi ích tuyệt vời của cà phê khi uống vào mỗi sáng:\n\n      ☕ **Tăng cường tỉnh táo:** Caffeine giúp kích thích hệ thần kinh, cải thiện sự tập trung và năng suất làm việc.\n\n      ❤️ **Bảo vệ sức khỏe tim mạch:** Nghiên cứu cho thấy cà phê có thể giúp giảm nguy cơ mắc bệnh tim nếu uống điều độ.\n\n      🏃 **Hỗ trợ đốt cháy mỡ:** Cà phê có thể thúc đẩy quá trình trao đổi chất, giúp bạn đốt cháy calo hiệu quả hơn.\n\n      🧠 **Cải thiện trí nhớ:** Một số nghiên cứu cho thấy cà phê có thể giúp giảm nguy cơ mắc bệnh Alzheimer và Parkinson.\n\n      Hãy tận hưởng một tách cà phê mỗi sáng để bắt đầu ngày mới đầy năng lượng!",
+    "author": "Nguyễn Văn A",
+    "date": "March 14, 2025",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQamJ4alzVtlksCACq8S0PNZ-6VrIlbDeFrMw&s"
+  },
+  {
+    "id": 2,
+    "title": "Thói quen uống cà phê buổi sáng – Bí quyết khởi đầu ngày mới đầy năng lượng",
+    "description": "Một tách cà phê vào mỗi buổi sáng không chỉ giúp bạn tỉnh táo mà còn mang lại nhiều lợi ích tuyệt vời cho cơ thể và tinh thần...",
+    "content": "Việc thưởng thức một ly cà phê vào buổi sáng đã trở thành thói quen quen thuộc của nhiều người. Hương thơm quyến rũ và vị đắng nhẹ của cà phê không chỉ đánh thức các giác quan mà còn mang đến nhiều lợi ích đáng ngạc nhiên:\n\n      ☕ **Giúp tỉnh táo và tăng cường sự tập trung:** Caffeine trong cà phê giúp kích thích hệ thần kinh trung ương, giúp bạn tỉnh táo và làm việc hiệu quả hơn.\n\n      💪 **Tăng cường trao đổi chất:** Cà phê có thể giúp thúc đẩy quá trình trao đổi chất, hỗ trợ đốt cháy calo và duy trì cân nặng hợp lý.\n\n      ❤️ **Hỗ trợ sức khỏe tim mạch:** Một số nghiên cứu cho thấy uống cà phê điều độ có thể giúp giảm nguy cơ mắc bệnh tim và đột quỵ.\n\n      🧠 **Cải thiện trí nhớ và bảo vệ não bộ:** Cà phê có thể giúp giảm nguy cơ mắc các bệnh thoái hóa thần kinh như Alzheimer và Parkinson.\n\n      🏃 **Nâng cao hiệu suất thể chất:** Caffeine giúp tăng cường khả năng chịu đựng và sức mạnh cơ bắp, rất hữu ích cho những ai tập luyện thể thao.\n\n      Một tách cà phê vào buổi sáng không chỉ đơn thuần là một thói quen mà còn là cách để bạn bắt đầu ngày mới với nhiều năng lượng và sự hứng khởi. Hãy tận hưởng từng giọt cà phê và để nó giúp bạn có một ngày làm việc hiệu quả!",
+    "author": "Nguyễn Văn B",
+    "date": "March 17, 2025",
+    "image": "https://image.plo.vn/w1000/Uploaded/2026/lcemdurlq/2026_05_07/uong-ca-phe-1-7522-6318.png.webp"
+  },
+  {
+    "id": 3,
+    "title": "Những quán cà phê ngon không thể bỏ lỡ ở Buôn Ma Thuột",
+    "description": "Buôn Ma Thuột – thủ phủ cà phê Việt Nam, là nơi hội tụ nhiều quán cà phê đặc sắc với hương vị đậm đà và không gian ấn tượng...",
+    "content": "Buôn Ma Thuột không chỉ nổi tiếng với những cánh đồng cà phê bạt ngàn mà còn sở hữu nhiều quán cà phê tuyệt vời dành cho những ai yêu thích thưởng thức hương vị nguyên bản. Dưới đây là một số quán cà phê bạn không thể bỏ qua khi đến với thành phố này:\n\n      ☕ **The Espresso Station** – Một không gian yên tĩnh với những ly cà phê specialty đậm đà, nơi bạn có thể tận hưởng hương vị cà phê nguyên bản được pha chế tỉ mỉ.\n\n      🌿 **Arul Coffee** – Một quán cà phê mang đậm chất Tây Nguyên với không gian nhà dài truyền thống của người Ê Đê, cà phê đậm vị và khung cảnh thiên nhiên tuyệt đẹp.\n\n      🍃 **House of Lens Coffee** – Quán cà phê có không gian xanh mát với nhiều góc sống ảo siêu đẹp, phù hợp cho những ai thích sự thư giãn và tĩnh lặng.\n\n      🏡 **Hẻm Coffee** – Một góc nhỏ bình yên giữa lòng thành phố với thiết kế hoài cổ, cà phê thơm ngon và đặc biệt là không gian cực kỳ chill.\n\n      ☕ **Cộng Cà Phê Buôn Ma Thuột** – Một phiên bản đặc biệt của chuỗi cà phê nổi tiếng, mang đến hương vị đặc trưng và không gian hoài niệm.\n\n      Nếu bạn là tín đồ cà phê, hãy một lần đặt chân đến Buôn Ma Thuột để khám phá những hương vị đặc trưng của vùng đất này. Hãy tận hưởng từng ngụm cà phê và cảm nhận nét đẹp văn hóa cà phê Tây Nguyên!",
+    "author": "Nguyễn Văn C",
+    "date": "March 17, 2025",
+    "image": "https://images2.thanhnien.vn/528068263637045248/2024/2/28/h5-1709115593656875870937.jpg"
+  },
+  {
+    "title": "Hương Vị Bình Minh: Tại Sao Cà Phê Buổi Sáng Từ GPFarm Là Khởi Đầu Hoàn Hảo Cho Ngày Mới?",
+    "description": "Khám phá hành trình từ nông trại xanh đến tách cà phê nguyên bản GPFarm. Bí quyết để bạn đánh thức năng lượng tích cực và khơi nguồn cảm hứng mỗi sớm mai.",
+    "content": "Mỗi buổi sáng thức dậy, điều gì khiến bạn cảm thấy hào hứng nhất để bước ra khỏi giường? Là ánh nắng ban mai len lỏi qua ô cửa sổ, tiếng chim hót líu lo ngoài hiên, hay mùi hương nồng nàn của một tách cà phê vừa mới pha?\n\nTrong nhịp sống hiện đại hối hả, việc dành ra 10 - 15 phút buổi sáng để tự tay chuẩn bị và thưởng thức một ly cà phê không chỉ là một thói quen, mà đã trở thành một \"nghi thức\" để tái tạo năng lượng. Và tại GPFarm, chúng tôi tin rằng, một ngày mới trọn vẹn xứng đáng được bắt đầu bằng một hương vị nguyên bản, thuần khiết nhất.\n\nHành trình từ nông trại xanh đến tách cà phê sớm mai\nĐể có được một tách cà phê thơm ngon đồng hành cùng bạn vào mỗi buổi sáng, đó là cả một hành trình dài đầy tâm huyết của đội ngũ GPFarm. Chúng tôi không chỉ bán cà phê, chúng tôi kể câu chuyện của đất, của nước và của những người nông dân lành nghề.\n\nNhững hạt ngọc từ lòng đất sạch: Cà phê GPFarm được nuôi dưỡng tại những vùng nguyên liệu lý tưởng, nơi có khí hậu ôn hòa và thổ nhưỡng trù phú. Mỗi hạt cà phê đều được chăm sóc bằng phương pháp hữu cơ, thuận tự nhiên và nói không với hóa chất độc hại.\n\nThu hoạch thủ công thu hái chín: Chúng tôi chỉ chọn hái những quả cà phê chín mọng bằng tay để đảm bảo hàm lượng đường và hương vị đạt độ chín muồi nhất.\n\nRang xay mộc – Giữ trọn tinh hoa: Không tẩm ướp, không pha trộn tạp chất. Cà phê GPFarm được rang xay theo công nghệ hiện đại nhưng vẫn giữ nguyên hương vị mộc mạc: vị đắng thanh thoát ban đầu, hương thơm quyến rũ nồng nàn và một hậu vị ngọt sâu lưu luyến mãi nơi cuống họng.\n\nTại sao bạn nên chọn cà phê GPFarm cho buổi sáng?\n1. Đánh thức tỉnh táo, khơi nguồn sáng tạo\nChất caffeine tự nhiên, sạch và nguyên chất trong cà phê GPFarm giúp kích thích hệ thần kinh trung ương một cách nhẹ nhàng, tăng cường sự tập trung và khả năng sáng tạo mà không gây ra cảm giác cồn cào hay ép tim như các loại cà phê pha trộn tạp chất.\n\n2. Trải nghiệm \"Sống Chậm\" giữa thế giới vội vã\nNgắm nhìn những giọt cà phê chầm chậm rơi qua phin, hay hít hà mùi hương bung tỏa khi dòng nước nóng chạm vào bột cà phê giấy nhỏ giọt (drip)... Đó là khoảng lặng tuyệt vời để bạn tĩnh tâm, sắp xếp lại mục tiêu trong ngày và mỉm cười đón nhận những điều tích cực phía trước.\n\n3. Lựa chọn vì sức khỏe bền vững\nMột cơ thể khỏe mạnh cần được nuôi dưỡng bởi những thực phẩm sạch. Chọn GPFarm là bạn đang chọn giải pháp an toàn cho sức khỏe của chính mình và người thân yêu, nhờ vào cam kết 100% hạt cà phê nguyên chất, organic từ nông trại.\n\nLời kết (Conclusion)\nDù ngày hôm nay của bạn là một chuỗi những cuộc họp bận rộn, những deadline dồn dập hay là một ngày nghỉ ngơi thư thả, hãy luôn bắt đầu nó với một tinh thần rạng rỡ nhất. Hãy để hương vị mộc mạc, đậm đà từ cà phê buổi sáng GPFarm ôm ấp mọi giác quan và tiếp thêm nguồn năng lượng tích cực cho bạn.\n\nGhé thăm gian hàng của GPFarm hôm nay để chọn cho mình hương vị cà phê phù hợp nhất – từ Robusta mạnh mẽ, đậm đà cho đến Arabica thơm nhẹ, thanh chua tinh tế.\n\nChào ngày mới, chào những nguồn cảm hứng mới cùng GPFarm!",
+    "author": "GPFarm",
+    "date": "Jun 26, 2026",
+    "image": "https://cdn.hstatic.net/200000662087/file/huong-vi-ca-phe-rang-xay__4__d5e31be6a9f542b3a359b7df81a9569a.jpg",
+    "id": 4
+  }
+];
